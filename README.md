@@ -1,4 +1,4 @@
-# Wallhaven favorite pictures (default) sync
+# Wallhaven sync
 
 Command line application to get your Wallhaven.cc collections and sync your favorite pictures to a folder of your choosing.
 
