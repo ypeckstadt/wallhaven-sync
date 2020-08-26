@@ -13,6 +13,7 @@ import (
 	"net/http"
 	"os"
 	"strconv"
+	"time"
 )
 
 // syncCmd represents the sync command
@@ -98,6 +99,10 @@ func syncForCollection(collectionID int, username string, apiKey string, files m
 	// keep syncing until all pages are loaded
 	for keepSyncing {
 		log.Printf("Syncing page %d ...", currentPage)
+		
+		// Sleep for 5 seconds to not spam the server
+		time.Sleep(5 * time.Second)
+		
 		// get the pictures in the default collection
 		getPicturesResponse, err := http.Get("https://wallhaven.cc/api/v1/collections/" + username + "/" + strconv.Itoa(collectionID)+ "?apikey=" + apiKey + "&page=" + strconv.Itoa(currentPage))
 		if err != nil {
