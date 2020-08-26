@@ -18,10 +18,12 @@ wallhaven-sync.exe list -k <api key>
 
 ## Syncing
 
+
 ``` bash
 wallhaven-sync.exe sync -k <api key> -o <output folder> -u <username> -c <collection id>
 ```
 
+Images are downloaded one by one to not spam the Wallhaven.cc servers. (no use of go routines)
 ``` bash
 2020/08/26 01:52:40 Syncing page 1 ...
 2020/08/26 01:52:41 Saving new file 0wg61x.png
