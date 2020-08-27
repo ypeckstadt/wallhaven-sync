@@ -20,18 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1bda36c-5abe-4ad3-add9-bd1cfc1ccb14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cmd/list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/root.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/sync.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/runtime.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/response/collections.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/response/collections.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/response/wallpaper.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/response/wallpaper.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/sync-result.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/result/sync-result.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/root.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +35,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="C:\Go" />
+  <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -72,7 +62,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/my-calc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -110,10 +100,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="663" y="185" key="#GOPATH/0.0.1920.1040@0.0.1920.1040" timestamp="1598355133456" />
-    <state x="752" y="450" key="#GOROOT" timestamp="1598354543403">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="752" y="480" key="#GOROOT" timestamp="1598488875481">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="752" y="450" key="#GOROOT/0.0.1920.1040@0.0.1920.1040" timestamp="1598354543403" />
+    <state x="752" y="480" key="#GOROOT/1920.23.1920.1057/-1440.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1598488875481" />
     <state x="760" y="369" key="#Go_Modules" timestamp="1598332497352">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
