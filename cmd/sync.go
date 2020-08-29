@@ -96,10 +96,11 @@ func syncForCollection(collectionID int, username string, apiKey string, files m
 	keepSyncing := true
 	syncResult := result.SyncResult{}
 
+	log.Println("syncing started ...")
+
 	// keep syncing until all pages are loaded
 	for keepSyncing {
-		log.Printf("Syncing page %d ...", currentPage)
-		
+
 		// Sleep for 5 seconds to not spam the server
 		time.Sleep(5 * time.Second)
 		
@@ -122,6 +123,7 @@ func syncForCollection(collectionID int, username string, apiKey string, files m
 			return syncResult, err
 		}
 
+		log.Printf("Syncing page %d/%d ...", currentPage, wallpapersResponse.Meta.LastPage)
 
 		for _, wallpaper := range wallpapersResponse.Wallpapers {
 			// determine file extension by file type
