@@ -3,7 +3,7 @@
 Command line application to get your Wallhaven.cc collections and sync your favorite pictures to a folder of your choosing.
 
 ## Installation
-Clone the repository and build yourself or downlaod the binary via
+Clone the repository and build yourself or download the binary via
 ```bash
 go get github.com/ypeckstadt/wallhaven-sync
 ```
